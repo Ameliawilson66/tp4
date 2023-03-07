@@ -9,8 +9,7 @@ import random
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
-COLORS = [arcade.color.BLUE, arcade.color.FANDANGO_PINK,
-arcade.color.FRENCH_ROSE, arcade.color.GOLDEN_POPPY]
+COLORS = [arcade.color.BLUE, arcade.color.RED, arcade.color.ORANGE, arcade.color.YELLOW, arcade.color.GREEN, arcade.color.ROYAL_PURPLE, arcade.color.MAGENTA]
 
 class Cercle():
     def __init__(self, r,x,y,c):
