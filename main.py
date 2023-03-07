@@ -1,8 +1,6 @@
 #Amelia Wilson
-#tp4: intro arcade
+#tp4: intro arcade EXERCICE1
 
-import arcade
-import random
 import arcade
 import random
 
