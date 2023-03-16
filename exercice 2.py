@@ -48,11 +48,13 @@ class MyGame(arcade.Window):
 
     def on_mouse_press(self, x: int, y: int , button: int, modifiers: int):
         if button == arcade.MOUSE_BUTTON_LEFT:
+            #si le bouton gauche de la souris est cliqué, le cercle cliqué est effacé
             for cercle in self.liste_cercles:
                 if x < cercle.centre_x + cercle.rayon and cercle.centre_x - cercle.rayon < x and y < cercle.centre_y + cercle.rayon:
                     self.liste_cercles.remove(cercle)
 
         elif button == arcade.MOUSE_BUTTON_RIGHT:
+            #si le bouton droite de la souris est cliqué, la couleur du cercle cliqué est changée à une nouvelle couleure aléatoire
             for cercle in self.liste_cercles:
                 if x < cercle.centre_x + cercle.rayon and cercle.centre_x - cercle.rayon < x and y < cercle.centre_y + cercle.rayon:
 
